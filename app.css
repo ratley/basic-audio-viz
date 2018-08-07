@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+#bar {
+	height: 50px;
+	width: 50px;
+	border-radius: 500px;
+	/*background-color: #222;*/
+	transition: all 0s ease;
+	border: 1px solid #222;
+}
+.graph, .graph-two {
+	width: 768px;
+	height: 300px;
+	border: 1px solid #d32f2f;
+	display: flex;
+	align-items: flex-end;
+}
+.bar, .bar-two, rect {
+	bottom: 0;
+	left: 0;
+	width: 6px;
+	background-color: #222;
+}
+.bar-two {
+	background-color: white;
+	border-top: 10px solid #222;
+}
+.fw {
+	display: flex;
+	justify-content: center;
+	font-family: Avenir;
+}
